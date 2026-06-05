@@ -80,9 +80,4 @@ BloodBank/
 | POST | `/blood-samples/{id}/request` | Receiver |
 | GET | `/hospital/requests` | Hospital |
 
-## Submission
 
-1. Import `database.sql` on hosted MySQL
-2. Deploy `backend/` (web root → `backend/public/`)
-3. Set `VITE_API_URL` in `frontend/.env`, run `npm run build`, deploy `frontend/dist/`
-4. Zip project (include `database.sql`) and upload to Google Drive
