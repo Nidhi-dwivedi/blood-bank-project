@@ -1,0 +1,19 @@
+# Dependencies
+frontend/node_modules/
+backend/vendor/
+
+# Environment
+backend/.env
+backend/writable/cache/*
+backend/writable/logs/*
+backend/writable/session/*
+backend/writable/uploads/*
+!backend/writable/**/.gitkeep
+
+# Build output
+frontend/dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
